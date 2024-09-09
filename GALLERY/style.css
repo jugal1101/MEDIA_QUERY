@@ -1,0 +1,95 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.gallery
+{
+    height: 700px;
+    width: 100%;
+}
+.gallery h1
+{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    margin-top: 8%;
+}
+.banner
+{
+    width: 90%;
+    height: 700px;
+    margin: auto;
+}
+.img1
+{
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img1 img
+{
+    height: 500px;
+    width: 23%;
+}
+ @media (max-width:480px)
+ {
+    .img1{
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+    .img1 img
+    {
+        width: 100%;
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+ } 
+ @media (min-width:481px) and (max-width:767px)
+ {
+    .img1{
+        height: 700px;
+        display: flex;
+       flex-wrap: wrap;
+    }
+    .img1 img
+    {
+     width: 50%;
+    padding: 20px 20px;
+    }
+ }
+ @media (min-width:768px) and (max-width:1024px)
+ {
+    .img1{
+        height: 700px;
+        display: flex;
+       flex-wrap: wrap;
+    }
+    .img1 img
+    {
+     width: 30%;
+    padding: 20px 20px;
+    }
+   .img1 .box1
+    {
+        width: 100%;
+    }
+ }
+ @media (min-width:1025px) and (max-width:1280px)
+ {
+    .img1
+{
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img1 img
+{
+    height: 500px;
+    width: 23%;
+}
+ }
